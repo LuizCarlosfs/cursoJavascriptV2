@@ -1,0 +1,45 @@
+{
+  "tasks": [
+    {
+      "title": "segunda tarefa",
+      "completed": false,
+      "createdAt": 1722368267749,
+      "updatedAt": 1722877921858,
+      "id": 3,
+      "userId": "2",
+      "updateAt": 1722877921858
+    },
+    {
+      "title": "Nova tarefa",
+      "completed": true,
+      "createdAt": 1722368506941,
+      "updatedAt": 1722867023626,
+      "id": 4,
+      "userId": "2",
+      "updateAt": 1722867023626
+    },
+    {
+      "title": "abcd-alterada",
+      "completed": true,
+      "createdAt": 1722632171355,
+      "updatedAt": 1722861813953,
+      "id": 5,
+      "userId": "2",
+      "updateAt": 1722861813953
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "daniel@server.com"
+    },
+    {
+      "id": "2",
+      "email": "maria@server.com"
+    },
+    {
+      "id": "3",
+      "email": "joao@server.com"
+    }
+  ]
+}

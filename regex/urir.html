@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        let url = 'https://www.google.com.br/search?user=daniel&id=1&q=regex';
+           
+        const regex = /[&?](\w+)=(\w+)/g
+        //console.log("regex exec=",regex.exec(url))
+      
+        let arr;
+        const obj = {}
+        while(arr = regex.exec(url)) {
+                     obj[arr[1]] = arr[2]
+        }
+        console.log(obj)
+
+    </script>
+</body>
+
+</html>

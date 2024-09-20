@@ -1,0 +1,112 @@
+{
+  "endereco": [
+    {
+      "cep": "03081003",
+      "logradouro": "Rua Tuiuti",
+      "numero": 589,
+      "bairro": "tatuapé",
+      "cidade": "Sao Paulo",
+      "estado": "SP",
+      "id": "03081003"
+    },
+    {
+      "id": "03081-015",
+      "cep": "03081-015",
+      "logradouro": "Rua Tuiuti-2",
+      "numero": "5",
+      "bairro": "Tatuapé-2",
+      "cidade": "São Paulo",
+      "estado": "ZZ"
+    },
+    {
+      "id": "03081-009",
+      "cep": "03081-009",
+      "logradouro": "Rua Tuiuti",
+      "numero": "",
+      "bairro": "Tatuapé",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "id": "03099999",
+      "cep": "03099999",
+      "logradouro": "",
+      "numero": "",
+      "bairro": "",
+      "cidade": "",
+      "estado": ""
+    },
+    {
+      "id": "03081-999",
+      "cep": "03081-999",
+      "logradouro": "Rua Tuiuti",
+      "numero": "",
+      "bairro": "Tatuapé",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "id": "03081999",
+      "cep": "03081999",
+      "logradouro": "",
+      "numero": "",
+      "bairro": "",
+      "cidade": "",
+      "estado": ""
+    },
+    {
+      "id": "03081999",
+      "cep": "03081999",
+      "logradouro": "",
+      "numero": "",
+      "bairro": "",
+      "cidade": "",
+      "estado": ""
+    },
+    {
+      "id": "03084999",
+      "cep": "03084999",
+      "logradouro": "",
+      "numero": "",
+      "bairro": "",
+      "cidade": "",
+      "estado": ""
+    },
+    {
+      "id": "03081999",
+      "cep": "03081999",
+      "logradouro": "",
+      "numero": "",
+      "bairro": "",
+      "cidade": "",
+      "estado": ""
+    },
+    {
+      "id": "06081999",
+      "cep": "06081999",
+      "logradouro": "",
+      "numero": "",
+      "bairro": "",
+      "cidade": "",
+      "estado": ""
+    },
+    {
+      "id": "08084999",
+      "cep": "08084999",
+      "logradouro": "",
+      "numero": "",
+      "bairro": "",
+      "cidade": "",
+      "estado": ""
+    },
+    {
+      "id": "03081999",
+      "cep": "03081999",
+      "logradouro": "",
+      "numero": "",
+      "bairro": "",
+      "cidade": "",
+      "estado": ""
+    }
+  ]
+}

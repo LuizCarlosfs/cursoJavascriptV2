@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+
+</head>
+<body>
+    <body>
+        <h1>Tabuada</h1>
+
+       <label for="numero">Digite um número</label>
+       <input type="number" name="numero" id="numero" min="0" max="1000" required> 
+     
+       <p></p>
+       <button onclick="mostrarTabuada()">Mostrar Tabuada</button>
+       <button onclick="limpar()">Limpar</button>
+       </p>
+         
+        <div id ="output">
+
+        </div>
+
+
+
+
+    <script>
+   
+        
+        let output  = document.getElementById('output')
+        let inumero = document.getElementById('numero')
+        let resultado = 0
+       
+        function mostrarTabuada(){
+            if (inumero.value=="") {
+              window.alert("Digite um numero entre 1 e 1000")
+            }  else{            
+             
+               for (var i=1; i<=10; i++) {
+                 resultado = Number(inumero.value) * i
+
+                 output.innerHTML += `${inumero.value} X ${i} = ${resultado}<br>`
+
+               }
+             } 
+            }
+
+        function limpar() {
+            output.innerHTML=""
+
+            inumero.value=""
+          
+            inumero.focus()
+
+        }
+
+    </script>
+    
+</body>
+</html>
